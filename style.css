@@ -1,0 +1,120 @@
+#homepageBanner{
+	width: 100%;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#bannerDiv{
+	display: flex;
+}
+
+#logo{
+	position: absolute;
+	width: 10%;
+}
+
+h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 250%;
+
+}
+
+body{
+	font-family: 'Schoolbell', cursive;
+}
+
+#cardsDiv  p{
+	color: pink;
+	font-size: 150%;
+	padding: 1%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.cardImgs{
+	height: 330px;
+	width: 330px;
+	border-radius: 20px;
+	box-shadow: 5px 10px 10px #888888;
+}
+
+.cardImgs:hover{
+	border: 2px solid purple;
+}
+
+#cardsDiv{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.smallHeading{
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#listsDiv{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.lists{
+	max-width: 330px;
+}
+
+ul, ol{
+	list-style-type: upper-roman;
+}
+
+@media screen and (max-width: 900px){
+	body{
+		background-color: skyblue;
+	}
+	.smallHeading,p{
+		text-align: center;
+	}
+	h1{
+		top: 50%;
+		left: 50%;
+		color: white;
+	}
+}
+}
+
+@media screen and (max-width: 500px){
+	body{
+		background-color: lightpink;
+	}
+}
+
+.col{
+	border: 1px solid green;
+}
+
+.colPics{
+	width: 100%;
+	border-radius: 20px;
+	height: 500px;
+	object-fit: cover;
+}
+
+.row{
+	margin-top: 5%;
+}
+
+button > a{
+	color: white;
+}
+
+button{
+	background-color: black;
+}
