@@ -118,3 +118,7 @@ button > a{
 button{
 	background-color: black;
 }
+
+li{
+	padding: 2%;
+}
